@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>2020年终总结</title>
+    <url>/2020/12/13/2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<p>不知不觉2020就已经到了最后一个月了，神奇的一年即将落下帷幕。费劲搭建的这个博客网站今年快结束了也没啥内容，趁这机会就回顾一下2020这年发生的事儿吧，想到啥写点啥。</p>
+<p>昨天是周末，刚好有空回了一趟1227，虽然才搬到嘉陵住2个多月的时间，但是一路上走走停停确发现仿佛已经过了许久。景上云天看起来也没什么变化，进门的保安大叔依然认识我，亲切地帮我开了门，七零八落停放的汽车，小区里那一间间车库改成的麻将馆，此起彼伏的麻将声，一切都是那么熟悉，却又和以前有了一点不同的味道。走过单元门，以前熟悉的小道却让我发现了没有注意过的景色。冬天到了，秋天却还不肯远走，黄叶倔强地想留在枝头，凛冽的北风一吹，枝丫摇晃，零星飘落。时间终究还是最无情，一旁四季常青的叶儿也瞒不过它。</p>
+<p><img src="https://pic.imgdb.cn/item/62ae817d0947543129ee8400.jpg" alt="小区秋叶" title="小区秋叶"></p>
+<p>回想一年前，杭州的时光还历历在目，好像昨天还在和俊豪一起聊天，谈谈大学的回忆。那个时候横扫世界的新冠病毒应该已经在武汉悄悄地弥散开来了，回到家便听到疫情爆发，还没有意识到事态严重，和爸妈打趣说幸好溜得早，不然估计不能回家过年了。然后就是感染人数节节攀升，全国各地封城封市，我们也迎来了最长的春节假期。说是假期，但是这段时间应该所有人都是惴惴不安无心享受的吧。特别是看到电视中每天的疫情播报，抗疫故事，总会感觉危险就在身边，也会为了前线抗击疫情的战士们担心感动。</p>
+<p>记得是到了三、四月份开始，国内的疫情逐渐缓和下来，我们也开始重新走向工作岗位，助力“复工复产”。各种可行、不可行、合理、不合理的指标、任务纷纷下推，忙得不可开交，具体忙啥也就不在这详细描述了。到了五、六月，首要任务开始变成了“岗位大练兵、业务大比武”。西充、成都，各种培训纷至沓来。</p>
+<p><img src="https://pic.imgdb.cn/item/62ae866f0947543129f3901a.jpg" alt="西充" title="西充"></p>
+<p>学习没努力，考试没考好，怨不得别人，岗位大练兵虽然过了一轮，但终究还是倒在了半路，也为后来一个事儿埋下了伏笔。接下来就恢复到了正常的工作时间，中途抽了个机会休了个假，去西安转了转。不知不觉就到了十月份，搬家，从1227繁华闹市搬到了嘉陵来，一个人住，安安静静，虽然离开了父母，但是偶尔回去看看也许比天天在一起说不定更好呢。</p>
+<p>十月底，全省篮球比赛的消息传来，篮球训练也就正式拉开了帷幕。从早到晚，辛苦但是确实还是能够学到不少东西，在杭州长胖了的身体素质也得到了进一步恢复。11月底小组赛正式开始，5个队伍4场比赛，前三场赢得摧枯拉朽，最后一场遗憾惜败。带着不甘，本想在接下来的淘汰赛上复仇，突然发生的疫情却又中止了这一切，复赛遥遥无期了。</p>
+<p>十二月了，一年的时间一晃而过，又年长了一岁。2020年，对于世界来说是如此不平凡的一年，对我而言也算是波折起伏的一年，2021年希望能够有所改变吧，毕竟这2020的最后时光并不是那么令人开心。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git安装配置</title>
+    <url>/2023/06/11/git%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="Git配置指引（个人备份）"><a href="#Git配置指引（个人备份）" class="headerlink" title="Git配置指引（个人备份）"></a>Git配置指引（个人备份）</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><blockquote>
+<p><a href="https://git-scm.com/downloads">git官网地址</a></p>
+<p><a href="https://mirrors.tuna.tsinghua.edu.cn/github-release/git-for-windows/git/">清华镜像</a></p>
+</blockquote>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><blockquote>
+<p>狂点下一步就好</p>
+</blockquote>
+<h3 id="本地配置"><a href="#本地配置" class="headerlink" title="本地配置"></a>本地配置</h3><blockquote>
+<ol>
+<li>查看git版本：git version</li>
+<li>配置用户名：git config –global user.name “gxstar”</li>
+<li>配置邮箱：git config –global user.email “<a href="mailto:&#x67;&#x65;&#110;&#x67;&#x78;&#x69;&#x6e;&#x67;&#49;&#x32;&#51;&#x40;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;">&#x67;&#x65;&#110;&#x67;&#x78;&#x69;&#x6e;&#x67;&#49;&#x32;&#51;&#x40;&#113;&#x71;&#46;&#99;&#x6f;&#x6d;</a>”</li>
+<li>查询配置：git config –global –list</li>
+<li>生成密钥文件：ssh-keygen -t rsa</li>
+</ol>
+</blockquote>
+<h3 id="github配置"><a href="#github配置" class="headerlink" title="github配置"></a>github配置</h3><blockquote>
+<ul>
+<li>密钥文件默认生成位置：C:\Users\gengx.ssh\id_rsa.pub（如果在生成密钥时选择了更改了存储位置则在指定位置处）</li>
+</ul>
+<ol>
+<li>登录github</li>
+<li>右上角头像点击后选择Settings<br><a href="https://pic.imgdb.cn/item/6485f2811ddac507cc4d2581.jpg"><img src="https://pic.imgdb.cn/item/6485f2811ddac507cc4d2581.jpg"></a></li>
+<li>点击设置密钥<br><a href="https://pic.imgdb.cn/item/6485f2db1ddac507cc4d8787.jpg"><img src="https://pic.imgdb.cn/item/6485f2db1ddac507cc4d8787.jpg"></a></li>
+<li>新建密钥填入上面打开的id_rsa.pub的内容，标题自拟就行<br><a href="https://pic.imgdb.cn/item/6485f33b1ddac507cc4df5b6.jpg"><img src="https://pic.imgdb.cn/item/6485f33b1ddac507cc4df5b6.jpg"></a></li>
+<li>重装git后避免无法直接重新使用项目：git config –global –add safe.directory “*”;</li>
+<li>配置完成</li>
+</ol>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>一次意料之外的成都之旅</title>
+    <url>/2021/05/09/%E4%B8%80%E6%AC%A1%E6%84%8F%E6%96%99%E4%B9%8B%E5%A4%96%E7%9A%84%E6%88%90%E9%83%BD%E4%B9%8B%E6%97%85/</url>
+    <content><![CDATA[<blockquote>
+<p>2020.10-2021.05</p>
+<p>时长半年多的训练比赛告一段落，最后这几天也许会成为脑海里很难消散的记忆吧。</p>
+</blockquote>
+<h2 id="出发之前"><a href="#出发之前" class="headerlink" title="出发之前"></a><a href="#%E5%87%BA%E5%8F%91%E4%B9%8B%E5%89%8D" title="出发之前"></a>出发之前</h2><p>过年、疫情、机构改革各种各样的事情把一件原本应该在去年12月就能够结束的事情硬生生拖到了今年。4月中旬接到通知，5月中旬开始最后的决赛，好不容易断断续续休息了大半年的身体又不得不开始活动起来了。<br>上一次被上面的消息虚晃一枪，训练一段时间，伤了一堆人，自己半月板也遭受了伤病，同事小伙赛季报销。虽然以前也会受各种各样的伤病，崴脚、挫伤什么的，半月板伤病还是第一次遇到，果然还是年纪大了。本来体重也不轻，以前还经常蹲很久厕所，膝盖不好想来也是理所当然。出发前的训练赛又遭遇了一次崴脚，还好不太严重，但是好像也有点预示往后的旅程似乎不会那么轻松。</p>
+<h2 id="启程（2021-05-06中午）"><a href="#启程（2021-05-06中午）" class="headerlink" title="启程（2021.05.06中午）"></a><a href="#%E5%90%AF%E7%A8%8B%EF%BC%882021-05-06%E4%B8%AD%E5%8D%88%EF%BC%89" title="启程（2021.05.06中午）"></a>启程（2021.05.06中午）</h2><p>中午在食堂吃完饭，一共16个人的队伍坐上一辆19座的考斯特出发了，人和行李挤得满满当当。南充到崇州的距离不算太远也不算太近，在车上，迷迷糊糊、半梦半醒地度过了4个小时左右以后终于到达了酒店。办理入住，放下行李，出门吃晚饭，逛一逛崇州。简简单单一天就过去了，晚上回酒店躺在床上，一点大战前的气氛仿佛都感受不到，一切都是那么平静、普通。</p>
+<h2 id="最后一次训练（2021-05-07上午）"><a href="#最后一次训练（2021-05-07上午）" class="headerlink" title="最后一次训练（2021.05.07上午）"></a><a href="#%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E8%AE%AD%E7%BB%83%EF%BC%882021-05-07%E4%B8%8A%E5%8D%88%EF%BC%89" title="最后一次训练（2021.05.07上午）"></a>最后一次训练（2021.05.07上午）</h2><p>一大早就乘车前往温江的某一个大学校园里面，教练的同学在里面工作，成功帮我们借到了这个场地来进行最后一堂训练课。<br>换衣服、活动身体、训练开始。<br>基础的进攻、防守练习，场馆感觉还不错。大家的身体状态也已经调整到一个不错的状态，没有很疲劳，没有出现大赛前的懈怠。但是两个主力控卫的脚伤似乎还没有恢复到一个很好的程度。</p>
+<h2 id="报到（2021-05-07下午）"><a href="#报到（2021-05-07下午）" class="headerlink" title="报到（2021.05.07下午）"></a><a href="#%E6%8A%A5%E5%88%B0%EF%BC%882021-05-07%E4%B8%8B%E5%8D%88%EF%BC%89" title="报到（2021.05.07下午）"></a>报到（2021.05.07下午）</h2><p>在一家不错的温江卤菜馆吃过饭后，我们终于来到了这次比赛的最终目的地，崇州税校。虽然久闻其名，但是这还是我第一次来到这里。校园环境不错，单人单间，住宿也还行。就是集体食堂的饭菜有点难以名状。安排好行李后，趁着球馆正在装修，我们果断进去试了试手感，这篮筐确实是真的舒服。也没有再做什么技战术的训练了，趁其他队伍还没来，投投篮、找找感觉、放松放松心情就可以了。这里的三分线大概比常规三分线近了差不多得有20多厘米吧。投三分和正常情况投长两分差不多，训练的时候感觉自己能到50%-60%的三分命中率，当然按照我的角色定位，比赛当中应该是没有三分机会的吧。</p>
+<h2 id="比赛（2021-05-08上午）"><a href="#比赛（2021-05-08上午）" class="headerlink" title="比赛（2021.05.08上午）"></a><a href="#%E6%AF%94%E8%B5%9B%EF%BC%882021-05-08%E4%B8%8A%E5%8D%88%EF%BC%89" title="比赛（2021.05.08上午）"></a>比赛（2021.05.08上午）</h2><p>在观看完成都和省局的比赛过后我们也开始了拉伸准备，上午第三场就该轮到我们上场了，没看到第二场女队的比赛着实有点可惜。<br>上午11点半，比预计时间大概晚了30分钟，我们的比赛开始了。熟悉的对手，却又有一点点不同，而正是这一点点不同打破了我们最开始的部署，为比赛埋下了一颗不确定的种子。<br>根据小组赛的经验，对面持球的7号、三分射手13号、内线大个18号会是本场比赛我们的防守重点。直到上半场结束的时候，比赛大体上还是按照我们最初的设想进行的，在前三节比赛打包干10分钟的时候我们最高领先7分已经是一个相当不错的分差了。<br>可是这次让我们没有想到的是对方阵中新加入了一名我们预赛时候没有遇到过的对手，24号横空出世。在本就比分不高的比赛中，他的突然出现，几记三分直接翻过比分将我们逼上绝路。比赛的最后时刻，我们依靠罚球领先1分，对方的最后一次进攻机会，底线球，我们采取了训练过无数次的全场紧逼战术，胜利的天平本来还是向我们这边微微倾斜。一个反跑，一个吊球，一个漏人，篮球瞬间到了对手的前场， 此时门户大开，绝望。最后，犯规拉下来，给了对手罚球绝杀的机会，他们当然也没又浪费，两罚两中。随着队长最后的三分偏出，无奈吞下了失败的苦果。</p>
+<h2 id="返程（2021-05-08下午）"><a href="#返程（2021-05-08下午）" class="headerlink" title="返程（2021.05.08下午）"></a><a href="#%E8%BF%94%E7%A8%8B%EF%BC%882021-05-08%E4%B8%8B%E5%8D%88%EF%BC%89" title="返程（2021.05.08下午）"></a>返程（2021.05.08下午）</h2><p>本该三天是的赛程，半天结束我们就得无奈打道回府。不甘心，但是竞技比赛就是这么残酷。算是灰头土脸吧，赛场内外没有做到更好，输了比赛很正常，希望以后能够不再经历这样的失败吧。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>篮球</tag>
+        <tag>成都</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新的视界</title>
+    <url>/2023/01/06/%E6%96%B0%E7%9A%84%E8%A7%86%E7%95%8C/</url>
+    <content><![CDATA[<p>记得上一次拥有相机还是遥远的小学时代，家里斥巨资200元购买的一台柯达还是佳能的卡片机。依稀还记得02年带着它畅游深圳，却在快回家的时候胶卷曝光，所有相片毁于一旦。也记得03年带着它和爸妈一起去九寨沟，见证美景。可惜这么多年过去了，那台相机早已不知道去了哪里，过去的照片也早已斑驳。</p>
+<p>这几年手机摄像头快速发展，手机摄影也成为了我近几年最有乐趣的兴趣爱好。可是，手机终究只是手机，拥有一台真正的相机逐渐成为了我的一个美好愿望。前两天终于狠下心，花了几千块钱买了这台松下GX9，虽然只是M43画幅，虽然是4年前发布的旧机，但是这对我来说仍然是一个非常开心的时刻，让我终于能达成用相机记录生活的愿望。</p>
+<p>放一放新相机拍摄的照片吧，和手机真的就不太一样了。（为了节省阿里云流量，图片都已经大幅压缩了，看个意思就行）</p>
+<p><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000053_r.jpg" alt="手办可莉"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000084_r.jpg" alt="王府井街景"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000107_r.jpg" alt="猫猫"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000151_r.jpg" alt="花花"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000158_r.jpg" alt="花花2"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000175_r.jpg"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000245_r.jpg" alt="办公桌"><br><img src="https://gxstar123.oss-cn-beijing.aliyuncs.com/picgo/P1000283_r.jpg" alt="HelloKitty"></p>
+]]></content>
+      <categories>
+        <category>摄影</category>
+      </categories>
+      <tags>
+        <tag>相册</tag>
+        <tag>随拍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>游绍兴</title>
+    <url>/2019/12/07/%E6%B8%B8%E7%BB%8D%E5%85%B4/</url>
+    <content><![CDATA[<p>不像以前每个周末枯坐家中的单调无趣，千里迢迢来到杭州让我有了足够的时间也有了足够的兴趣去周边转转，感受一下江南水乡不一样的魅力。这个周末又和一起来的小伙伴相约前往离杭州仅50公里左右的绍兴参观。</p>
+<h2 id="出发"><a href="#出发" class="headerlink" title="出发"></a><a href="#%E5%87%BA%E5%8F%91" title="出发"></a>出发</h2><p>考虑到绍兴主要游玩景点都在市区内，我们选择了从杭州东出发到达绍兴市中心老火车站的T135次列车。早上7点20分在龙禧大酒店吃过早餐后，打车赶到地铁联庄站乘坐杭州地铁4号线，大约40分钟左右赶到了杭州东站，离8点24分火车发车时间差不多刚好还有20分钟来候车检票，完美。话说自从从北京回家后因为再没什么远距离出行的缘故，已经好多年没有做过非高铁\动车了。走到站台没有看到印象中T字开头的红皮列车，再三对照了一下确认即将乘坐的是眼前的绿皮火车。果然，踏入车厢一股难以言明的味道扑面袭来，嘈杂的车厢让我想起了多年以前的那趟K117&#x2F;118，不过不同的是那时候我不得不在这样的环境中待上27、8个小时这次只需要40分钟。</p>
+<h2 id="到达"><a href="#到达" class="headerlink" title="到达"></a><a href="#%E5%88%B0%E8%BE%BE" title="到达"></a>到达</h2><p>9点05分，火车准时驶入了绍兴火车站，这个车站据说始建于1937年，古朴的站台，充满历史感的建筑风格给人一种回到了数十年前的感觉。走出车站，冬日温暖的阳光洒在了身上，呼吸着与车厢内不同的新鲜空气，一种说不出的舒适感让人陶醉。拿出手机打开百度地图，查了查公交路线后，我们坐上了站边的1路公交车，向此次旅行的第一站鲁迅故居出发了。</p>
+<h3 id="鲁迅故居"><a href="#鲁迅故居" class="headerlink" title="鲁迅故居"></a><a href="#%E9%B2%81%E8%BF%85%E6%95%85%E5%B1%85" title="鲁迅故居"></a>鲁迅故居</h3><p>鲁迅故居是我们这次旅途最主要的目的地，毕竟从小学的语文课本开始，鲁迅就是一个耳熟能详的名字，百草园、三味书屋、课桌上的那个“早”，都已神往许久。<br><img src="https://s1.ax1x.com/2020/10/17/0OEIpD.jpg" alt="鲁迅祖居" title="鲁迅祖居"><br>鲁迅祖居，鲁迅周氏家族祖屋，也是鲁迅故里景区进门的第一个景点，凭身份证免费参观<br><img src="https://s1.ax1x.com/2020/10/17/0OET6H.jpg" alt="三味书屋" title="三味书屋"><br>三味书屋，小时课文里鲁迅刻“早”字的地方就在图片左边标注出来的座位上（鲁迅家离三味书屋真就一分钟的路程，没有特殊原因着实不应该迟到，哈哈）<br><img src="https://s1.ax1x.com/2020/10/17/0OEbnA.jpg" alt="百草园" title="百草园"><br>百草园，鲁迅文中荒废的院子，当然现在也已经经过了修缮，园中整齐的种上了蔬菜，相比于大部分人去合影的那个写了百草园三个字的石碑，我更加喜欢这扇有着历史沧桑感的院门</p>
+<h3 id="周恩来祖居"><a href="#周恩来祖居" class="headerlink" title="周恩来祖居"></a><a href="#%E5%91%A8%E6%81%A9%E6%9D%A5%E7%A5%96%E5%B1%85" title="周恩来祖居"></a>周恩来祖居</h3><p>周恩来祖居，从鲁迅故居出来过后，赶在吃饭之前我们匆匆前往了不远的周恩来祖居，周恩来本人出生于江苏，祖辈一族一直居住于此地，祖居内有周恩来纪念馆介绍周恩来历史，街对面是有周恩来雕像的广场</p>
+<h3 id="仓桥直街"><a href="#仓桥直街" class="headerlink" title="仓桥直街"></a><a href="#%E4%BB%93%E6%A1%A5%E7%9B%B4%E8%A1%97" title="仓桥直街"></a>仓桥直街</h3><p>在仓桥直街的一家小绍兴饭馆内，我们品尝了一下绍兴本地菜。虽然我对江浙一带的菜式口味不甚感冒，但是偶尔尝尝当地特色美食也是别有一番风味，同行的小伙伴还品尝了一下特色女儿红，据他说还不错。<br>吃过饭我们也就顺道逛了逛这条网上评价甚好的历史文化街道，和上次去苏州逛的山塘、平江路类似，都是充满古色古香的传统建筑民居，当然也缺少不了现代化的商业气息，</p>
+<h3 id="沈园"><a href="#沈园" class="headerlink" title="沈园"></a><a href="#%E6%B2%88%E5%9B%AD" title="沈园"></a>沈园</h3><p>吃过午饭后，我们也就一路前往此次旅行最后的目的地——沈园。这也是这一趟唯一有收费门票的景点，网上资料介绍与苏州园林的明清风格不同，沈园主要是宋代风格建筑，宋代著名词人陆游在此所做的《钗头凤》流传百世，为此园带来了爱情名誉的美誉。</p>
+<h3 id="沈园一处不知名亭子"><a href="#沈园一处不知名亭子" class="headerlink" title="沈园一处不知名亭子"></a><a href="#%E6%B2%88%E5%9B%AD%E4%B8%80%E5%A4%84%E4%B8%8D%E7%9F%A5%E5%90%8D%E4%BA%AD%E5%AD%90" title="沈园一处不知名亭子"></a>沈园一处不知名亭子</h3><p><img src="https://s1.ax1x.com/2020/10/17/0OEjtf.jpg" alt="沈园红叶" title="沈园红叶"><br>沈园红叶，深秋初冬的枫树在午后温暖阳光照耀下红得十分耀眼<br><img src="https://s1.ax1x.com/2020/10/17/0OEo1e.jpg" alt="务观堂" title="务观堂"><br>陆游纪念馆的务观堂，陆游纪念馆位于沈园古迹区南侧，馆内展出大量手迹、照片、画幅、善本、托拓片、实物模型等</p>
+<h3 id="沈园出口"><a href="#沈园出口" class="headerlink" title="沈园出口"></a><a href="#%E6%B2%88%E5%9B%AD%E5%87%BA%E5%8F%A3" title="沈园出口"></a>沈园出口</h3><p><img src="https://s1.ax1x.com/2020/10/17/0OE7Xd.jpg" alt="沈园出口" title="沈园出口"></p>
+<h2 id="返程"><a href="#返程" class="headerlink" title="返程"></a><a href="#%E8%BF%94%E7%A8%8B" title="返程"></a>返程</h2><p>参观完沈园今天的旅行也基本结束了，不想再经历普快列车的我们乘坐公交车赶往了距离较远的绍兴北站乘坐高铁耗时19分钟后回到了杭州。</p>
+]]></content>
+      <categories>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>旅游</tag>
+        <tag>绍兴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>补番目录</title>
+    <url>/2023/01/14/%E8%A1%A5%E7%95%AA%E7%9B%AE%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="电影-剧场版"><a href="#电影-剧场版" class="headerlink" title="电影&#x2F;剧场版"></a>电影&#x2F;剧场版</h1><p><a href="magnet:?xt=urn:btih:94ab88a2603f879f9e9c04148802ed5b3e5ecc45">寻梦环游记（2017 美国 动画 奇幻）</a></p>
+<h1 id="番剧"><a href="#番剧" class="headerlink" title="番剧"></a>番剧</h1><h2 id="2023"><a href="#2023" class="headerlink" title="2023"></a>2023</h2><h3 id="一季度"><a href="#一季度" class="headerlink" title="一季度"></a>一季度</h3><p><a href="https://share.dmhy.org/topics/list?keyword=%E8%BD%AC%E7%94%9F%E7%8E%8B%E5%A5%B3%E4%B8%8E%E5%A4%A9%E6%89%8D%E5%8D%83%E9%87%91%E7%9A%84%E9%AD%94%E6%B3%95%E9%9D%A9%E5%91%BD">转生王女与天才千金的魔法革命（百合）</a>&#x2F;<a href="https://share.dmhy.org/topics/list?keyword=%E8%88%B0%E9%98%9F">舰队Collection 第二季（百合 游戏改）</a>&#x2F;<a href="https://share.dmhy.org/topics/list?keyword=%E5%88%AB%E5%BD%93%E6%AC%A7%E5%B0%BC%E9%85%B1%E4%BA%86">别当欧尼酱了！（百合 后宫 性转）</a>&#x2F;<a href="https://share.dmhy.org/topics/list?keyword=%E5%AE%87%E5%B4%8E%E9%85%B1">宇崎酱想要玩耍！ 第二季（搞笑 校园 爱情 治愈）</a></p>
+<hr>
+<h2 id="2022"><a href="#2022" class="headerlink" title="2022"></a>2022</h2><h3 id="四季度"><a href="#四季度" class="headerlink" title="四季度"></a>四季度</h3><p><a href="https://share.dmhy.org/topics/list?keyword=%E5%AD%A4%E7%8B%AC%E6%91%87%E6%BB%9A">孤独摇滚！（百合 偶像 芳文社）</a></p>
+<h3 id="三季度"><a href="#三季度" class="headerlink" title="三季度"></a>三季度</h3><p><a href="https://share.dmhy.org/topics/list?keyword=%E5%BC%82%E4%B8%96%E7%95%8C%E8%88%85%E8%88%85">异世界舅舅（搞笑 奇幻 异世界）</a>&#x2F;<a href="https://share.dmhy.org/topics/list?keyword=%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E5%AE%9E%E5%8A%9B%E8%87%B3%E4%B8%8A%E4%B8%BB%E4%B9%89">欢迎来到实力至上主义的教室 第二季（校园）</a></p>
+<hr>
+<h2 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h2><h3 id="三季度-1"><a href="#三季度-1" class="headerlink" title="三季度"></a>三季度</h3><p><a href="https://share.dmhy.org/topics/list?keyword=%E5%AE%87%E5%B4%8E%E9%85%B1">宇崎酱想要玩耍！（搞笑 校园 爱情 治愈）</a></p>
+<hr>
+<h2 id="2014"><a href="#2014" class="headerlink" title="2014"></a>2014</h2><h3 id="四季度-1"><a href="#四季度-1" class="headerlink" title="四季度"></a>四季度</h3><p><a href="https://share.dmhy.org/topics/list?keyword=%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80">四月是你的谎言（校园 青春）</a></p>
+]]></content>
+      <categories>
+        <category>动漫</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>西安</title>
+    <url>/2020/10/06/%E8%A5%BF%E5%AE%89/</url>
+    <content><![CDATA[<p>心心念念很久的年假开始啦！去年由于种种原因没有休成的公休假，耽搁到了2020年的现在终于能够成行了。考虑到时间和天气等等因素，最终西安成为了我今年休假的目的地。</p>
+<h4 id="目的景点"><a href="#目的景点" class="headerlink" title="目的景点"></a><a href="#%E7%9B%AE%E7%9A%84%E6%99%AF%E7%82%B9" title="目的景点"></a>目的景点</h4><ol>
+<li>西安城墙</li>
+<li>钟楼</li>
+<li>大雁塔（时间不够音乐喷泉暂停开放所以没去）</li>
+<li>秦始皇兵马俑</li>
+<li>陕西省历史博物馆（没有预约到😂）</li>
+<li>回民街</li>
+</ol>
+<h2 id="出发"><a href="#出发" class="headerlink" title="出发"></a><a href="#%E5%87%BA%E5%8F%91" title="出发"></a>出发</h2><p>出发前一天订车票的时候惊奇的发现，南充到西安竟然有直达的高铁了，总计行程就3个多小时时间，把我惊呆了😮，脑海中还记得当初刚毕业的时候一个人去西安，在达州转车足足花了8个多小时。早上11点半的火车，10点半提前到达南充北站。</p>
+<p><a href="https://imgchr.com/i/0UwokV"><img src="https://s1.ax1x.com/2020/10/06/0UwokV.md.jpg" alt="南充北站"></a></p>
+<h2 id="抵达"><a href="#抵达" class="headerlink" title="抵达"></a><a href="#%E6%8A%B5%E8%BE%BE" title="抵达"></a>抵达</h2><p>虽然，理论行程3个多小时，但是很不幸的遇见晚点了，只能怪天公不作美吧，下午4点多到达了西安北站。</p>
+<p><a href="https://imgchr.com/i/0Uw5T0"><img src="https://s1.ax1x.com/2020/10/06/0Uw5T0.md.jpg" alt="西安北站出站口"></a></p>
+<p>作为一个著名的旅游城市，酒店住宿倒是不用担心。老城区里面宾馆林立，各种七天、汉庭层出不穷。匆匆赶到昨天定好的酒店办理入住后就已经快到6点了。时间差不多，因为订的是靠近西安城墙的酒店，趁着吃完饭前的一点点时间，果断不行前往城墙，去第一个景点一探究竟。</p>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a><a href="#%E5%BC%80%E5%A7%8B" title="开始"></a>开始</h2><h3 id="Day1"><a href="#Day1" class="headerlink" title="Day1"></a><a href="#Day1" title="Day1"></a>Day1</h3><p>天气不错，夕阳下的古城墙还是能够感受出一丝当年的兵戈铁马。</p>
+<p><a href="https://imgchr.com/i/0UwTYT"><img src="https://s1.ax1x.com/2020/10/06/0UwTYT.md.jpg" alt="城墙"></a></p>
+<p>天色渐暗，在城墙上刷了一波微信步数后，接下来就是去回民街看看顺便找点吃的。</p>
+<p><a href="https://imgchr.com/i/0Uw7fU"><img src="https://s1.ax1x.com/2020/10/06/0Uw7fU.md.jpg" alt="回民街"></a></p>
+<p>尽管不是法定节假日，回民街的生意可是一点都不冷清，喧嚣的人群熙熙攘攘，肉夹馍店门前排队的人群一字排开似一条蜿蜒的巨蛇。逛了一圈后才发现夜已深，是时候踏上回酒店的步伐了。</p>
+<p><a href="https://imgchr.com/i/0Uwql4"><img src="https://s1.ax1x.com/2020/10/06/0Uwql4.md.jpg" alt="钟楼"></a></p>
+<p>路过车灯霓虹映照的钟楼，五彩斑斓的光线和古色古香的建筑结合成了属于这个时代西安的特殊风景。</p>
+<h3 id="Day2"><a href="#Day2" class="headerlink" title="Day2"></a><a href="#Day2" title="Day2"></a>Day2</h3><p>第二天一大早，吃完早饭退了房，就朝着此次旅行最大的目的地秦始皇兵马俑博物馆出发了。兵马俑在临潼，距离西安市区还有一定的距离，需要先乘坐地铁一号线到纺织城再坐“传说中”的游5路到达目的地。途中还会路过华清宫，但是看了网上的各种评价我还是拒绝了这个地方，而是直接前往兵马俑博物馆。</p>
+<p><a href="https://imgchr.com/i/0UwOX9"><img src="https://s1.ax1x.com/2020/10/06/0UwOX9.md.jpg" alt="兵马俑博物馆"></a></p>
+<p>兜兜转转终于来到了这里，从小学课本开始听说的一个地方，来看看这世界第八大奇迹。</p>
+<p><a href="https://imgchr.com/i/0UwjmR"><img src="https://s1.ax1x.com/2020/10/06/0UwjmR.md.jpg" alt="铜车马"></a></p>
+<p><a href="https://imgchr.com/i/0U0Sk6"><img src="https://s1.ax1x.com/2020/10/06/0U0Sk6.md.jpg" alt="一号坑"></a></p>
+<h2 id="返程"><a href="#返程" class="headerlink" title="返程"></a><a href="#%E8%BF%94%E7%A8%8B" title="返程"></a>返程</h2><p>参观完兵马俑已经是下午了，准备返程了，还要赶在晚上回家睡觉。从兵马俑回西安北站还需要接近2个小时的车程，坐上游5路后随着公交车摇摇晃晃到达地铁站，转地铁前往火车站。进站、候车、上车，折腾完天色已经暗了下来，两天的西安游也要到此结束了。</p>
+<p><a href="https://imgchr.com/i/0URzWR"><img src="https://s1.ax1x.com/2020/10/06/0URzWR.md.jpg" alt="返程"></a></p>
+<p>返程路上又遇上了晚点，运气确实不太好😢。晚上11点钟终于到家了，这趟旅程虽然累，但是还是能算是一次不错的回忆的，希望以后还有机会能来看看这座充满了历史沧桑的古城。</p>
+]]></content>
+      <categories>
+        <category>游记</category>
+      </categories>
+      <tags>
+        <tag>旅游</tag>
+        <tag>西安</tag>
+      </tags>
+  </entry>
+</search>
